@@ -1,0 +1,51 @@
+# === Core Framework ===
+fastapi
+uvicorn[standard]
+pydantic-settings
+python-multipart
+aiofiles
+
+# === Database ===
+sqlalchemy[asyncio]
+aiosqlite          # SQLite async driver (demo mode)
+asyncpg            # PostgreSQL async driver (production)
+
+# === Auth & Security ===
+python-jose[cryptography]
+passlib[bcrypt]
+cryptography
+
+# === HTTP Client ===
+httpx
+
+# === Image Processing & OCR ===
+pillow
+opencv-python-headless
+numpy
+
+# === ML/AI (install separately if needed — heavy deps) ===
+# paddleocr
+# paddlepaddle
+# scikit-learn
+# spacy
+
+# === Cloud Storage ===
+# boto3
+
+# === Cache & Queue (optional) ===
+# redis
+# celery
+
+# === GIS (requires PostGIS in production) ===
+# geoalchemy2
+# shapely
+
+# === WebSocket ===
+websockets
+
+# === Date Utils ===
+python-dateutil
+
+# === Testing ===
+pytest
+pytest-asyncio
